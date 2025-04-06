@@ -1,8 +1,3 @@
-# STM32_DataLogger
-Certainly! Here's the updated `README.md` for your STM32 Data Logger project, incorporating the reference to the schematic diagram PNG file from your repository:
-
----
-
 # STM32 Data Logger
 
 This repository contains the firmware and design files for a **data logger** based on the **STM32F103** microcontroller. The system is designed to collect sensor data over I2C and store it on a microSD card via SPI, allowing for long-term, timestamped environmental data logging. It’s ideal for applications like embedded monitoring, experiments, or remote sensing setups.
@@ -95,7 +90,7 @@ git clone git@github.com:Shreyash-Tripathii/STM32_DataLogger.git
 
 All schematic and layout files are made in **Altium Designer** and are available in the repo. Below is the schematic diagram of the data logger:
 
-![Schematic Diagram](STM32_IMU_DataLogger.png)
+![Schematic Diagram](./STM32_IMU_DataLogger.png)
 
 The board includes:
 - STM32F103C8T6 microcontroller
